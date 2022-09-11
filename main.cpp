@@ -8,5 +8,9 @@ int main(){
     int fact=factorial(n);
     if(fact>0) cout<<"Factorial of "<<n<<" is "<<factorial(n);
     else cout<<"kindly enter positive number\n";
+    int x=56, y=98;
+    // cout<<"Enter 2 nos to print gcd:";
+    // cin>>x>>y;
+    cout<<"GCD of x and y is"<<gcd(x,y)<<endl;
     return 0;
 }
