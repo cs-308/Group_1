@@ -11,6 +11,6 @@ int main(){
     int x=56, y=98;
     // cout<<"Enter 2 nos to print gcd:";
     // cin>>x>>y;
-    cout<<"GCD of x and y is"<<gcd(x,y)<<endl;
+    cout<<"\nGCD of x and y is "<<gcd(x,y)<<endl;
     return 0;
 }
